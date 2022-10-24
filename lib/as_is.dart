@@ -30,3 +30,4 @@ void main(List<String> args){
     throw 'Object is not Animal'; //ở đây hệ thống báo lỗi do object không thể ép kiểu về đối tượng Animal
   } 
 }
+// Late
