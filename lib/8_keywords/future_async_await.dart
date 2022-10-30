@@ -15,7 +15,9 @@
   Tính chất của Future, async, await:
   + Có thể dùng trong 1 Future fuction() tự định nghĩa và cả hàm main() (Future <void> main() async {print(await function();)})
   + Await chỉ được sử dụng khi có keyword async được sử dụng
-  VD về lập trình BĐB: 
+  Then: là keyword thể hiện rằng sau khi cho ra kết quả của một phương thức await nào đó thì sau đó nó sẽ làm gì tiếp theo
+  VD: 
+  Ví dụ về lập trình BĐB: 
   Future<String> function() async {
     print (await firstFunction());
     print (await secondFunction());
@@ -44,7 +46,7 @@ void main()  {
   print('Order coffee...'); // in ra 'Order coffee...'
   var making = makingCoffee(); // 
   print('Making coffee...'); // in ra 'Making coffee...'
-  making.then((result) => print(result)); // in ra hàm makingCoffee()
+  making.then((result) => print(result)).catchError((error) => print(error)); // in ra hàm makingCoffee()
   
 }
 

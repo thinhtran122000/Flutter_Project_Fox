@@ -1,4 +1,5 @@
-// Break (Dùng để ngắt một vòng lặp) - Continue (Dùng để skip qua phần tử kế tiếp trong vòng lặp) ///////////////////
+// Break (Dùng để ngắt một vòng lặp) 
+// Continue (Dùng để skip một phần tử lặp để chạy phần tử kế tiếp trong vòng lặp. Nếu dùng continue trong 1 vòng lặp có điều kiện nào đó, nó sẽ tiếp tục lặp phần từ sau đó)
 // ignore_for_file: avoid_print
 
 void main(List<String> args){
