@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_print, override_on_non_overriding_member
+// ignore_for_file: avoid_print, override_on_non_overriding_member, duplicate_ignore
 
 abstract class Animals{ //ở đây ta khai báo 1 lớp trừu tượng Animals với 2 phương thức trừu tượng là eat() và makeSound()
   void eat();
@@ -17,7 +17,6 @@ class Dog extends Animals{
   }
   // @override
   // void makeSound(){
-  //   // ignore: avoid_print
   //   print('Barking');
   // }
   void run(){
